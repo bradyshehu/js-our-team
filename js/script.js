@@ -46,7 +46,7 @@ const generateMemberSection = (member) => {
     <div class="member-image">
       <img src=${img} alt="${name}" width="100%"/>
     </div>
-    <div class="member-info text-white bg-dark w-100 p-2">
+    <div class="member-info text-white bg-black w-100 p-2">
       <h3>${name}</h3>
       <p>${role}</p>
       <a href="#">${email}</a>
