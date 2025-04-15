@@ -42,9 +42,9 @@ const teamSheet = document.getElementById("team-sheet");
 const generateMemberSection = (member) => {
   const { name, role, email, img } = member;
   return `      
-  <div class="col-sm-12 col-md-6 col-lg-4 d-flex">
+  <div class="col-sm-12 col-md-6 col-xl-4 d-flex">
     <div class="member-image">
-      <img src=${img} alt="${name}" />
+      <img src=${img} alt="${name}" width="100%"/>
     </div>
     <div class="member-info text-white bg-dark w-100 p-2">
       <h3>${name}</h3>
